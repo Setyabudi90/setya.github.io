@@ -1,0 +1,20 @@
+.myBG {
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1320x728?nasa');
+    background-size: cover;
+} 
+
+.bg {
+    backdrop-filter: blur(9px);
+    background-color: #fff;
+    opacity: 86%;
+}
+
+.nama {
+    opacity: 100%;
+}
+
+.nama:hover {
+    transform: scale(1), rotate(30deg);
+    color: tomato;
+}
